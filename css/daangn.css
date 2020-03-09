@@ -1,0 +1,152 @@
+@import "reset.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  width: 980px;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  width: 130px;
+}
+
+.header__form {
+  height: 44px;
+  width: 600px;
+  border: solid 1px #ff8a3c;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.header__form {
+  width: 510px;
+  padding: 15px 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header__input {
+  width: 410px;
+  height: 30px;
+  border: none;
+  font-size: 16px;
+}
+
+.header__form i {
+  font-size: 20px;
+  color: #ff8a3c;
+}
+
+.header__app-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__app-btn:not(:last-child) {
+  margin-right: 12px;
+}
+
+.header__app-btn {
+  height: 42px;
+  padding: 0px 16px;
+  border: solid 1px #ff8a3c;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__app-btn i {
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+.header__app-btn a {
+  color: #ff8a3c;
+}
+
+section {
+  width: 100%;
+  padding: 120px 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section:nth-child(2n) {
+  background-color: #f8f9fa;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.title-b {
+  font-size: 38px;
+}
+
+.divider {
+  height: 46px;
+  width: 70px;
+  border-top: solid 2px #ff8a3c;
+  margin-top: 46px;
+}
+
+.reviews {
+  font-size: 17px;
+}
+
+.reviews__wrap__row {
+  display: flex;
+}
+
+.reviews__wrap__row:not(:last-child) {
+  margin-bottom: 90px;
+}
+
+.reviews__wrap__row .review {
+  width: 300px;
+  display: flex;
+  align-items: top;
+}
+
+.reviews__wrap__row .review:not(:last-child) {
+  margin-right: 30px;
+}
+
+.review .review__desc {
+  margin-top: 6px;
+  margin-left: 10px;
+  line-height: 1.5;
+}
+
+.reviews .review__loc,
+.reviews i {
+  color: #ff8a3c;
+}
+
+.reviews i {
+  font-size: 17px;
+}
